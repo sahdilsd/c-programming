@@ -14,7 +14,7 @@ int main()
     int count=0; int consonants=0;
     printf("%s\n",str);
 
-    for(int i=0;i<5;i++){
+    for(int i=0;i<6;i++){
         char sh=str[i];
         if(sh=='a'||  sh=='e'|| sh=='i'||sh=='o'||sh=='u'){
             count++;
